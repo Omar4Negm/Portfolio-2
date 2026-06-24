@@ -502,7 +502,7 @@ h1, h2, h3, h4, h5, h6 {
 .projects-grid::after { content: ""; display: table; clear: both; }
 
 .project-card {
-    width: 31.33%;
+    width: 47%;
     float: left;
     margin-right: 3%;
     background-color: var(--card-bg);
@@ -540,11 +540,12 @@ h1, h2, h3, h4, h5, h6 {
     transition: var(--transition-smooth);
 }
 
-.project-card:hover .project-placeholder { transform: scale(1.08); }
+.project-card:hover .project-placeholder { transform: scale(1.02); }
 
 .bg-gradient-1 { background: linear-gradient(135deg, #2962FF, #70A1FF); }
 .bg-gradient-2 { background: linear-gradient(135deg, #0A1026, #4F7DFF); }
 .bg-gradient-3 { background: linear-gradient(135deg, #10ac84, #2962FF); }
+.bg-gradient-4 { background: linear-gradient(135deg, #10ac84, #2962FF); }
 
 .mock-browser {
     position: absolute;
