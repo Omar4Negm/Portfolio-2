@@ -49,6 +49,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }, { threshold: 0.15, rootMargin: "0px 0px -40px 0px" });
 
+    
     document.querySelectorAll('.scroll-reveal, .section-reveal').forEach(sec => revealOnScrollObserver.observe(sec));
 
     setTimeout(() => {
